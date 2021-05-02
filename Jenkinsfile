@@ -7,7 +7,7 @@ pipeline {
         stage('Build'){
             
             agent {
-                label "myslavemaven"
+                label "mymaven-jenkin-docker-s8-label"
             }
           
           steps {
