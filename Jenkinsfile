@@ -1,4 +1,4 @@
-pipeline {
+tpipeline {
     
     agent none
     
@@ -12,7 +12,7 @@ pipeline {
           
           steps {
              
-                echo "my master branchhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+                echo "my feature branchhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
           }
         }
    }
